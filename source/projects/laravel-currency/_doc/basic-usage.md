@@ -24,7 +24,7 @@ currency($amount, $from = null, $to = null, $format = true)
 
 ```php
 echo currency(12.00);               // Will format the amount using the user selected currency
-echo currency(12.00, 'USD', 'EUR'); // Will format the amount from the default currency to EUR
+echo currency(12.00, 'USD', 'EUR'); // Will format the amount from USD to EUR
 ```
 
 ## Formatting
